@@ -1,0 +1,315 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9fa;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #2f4673;
+  padding: 15px;
+}
+
+.navbar a {
+  color: white;
+  margin-left: 15px;
+  font-size: 18px;
+}
+
+.navbar a:hover {
+  color: #007bff;
+}
+
+.hero-skills {
+  background-color: #f0f2f5;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.hero-skills h1 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.sponsers {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.sponsers img {
+  filter: grayscale(100%);
+  max-width: 150px;
+}
+
+.about {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.about h1 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.services {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.services h1 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.portfolio {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.portfolio h1 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.contact {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.contact h1 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.footer {
+  background-color: #2f4673;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #2f4673;
+  padding: 15px;
+}
+
+.navbar a {
+  color: white;
+  margin-left: 15px;
+  font-size: 18px;
+}
+
+.navbar a:hover {
+  color: #007bff;
+}
+
+.navbar ul {
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  background-color: #2f4673;
+  padding: 10px;
+}
+
+.navbar a:hover ul {
+  display: block;
+}
+
+.navbar ul li {
+  list-style-type: none;
+}
+
+.navbar ul li a {
+  color: white;
+  font-size: 16px;
+}
+
+.navbar ul li a:hover {
+  color: #007bff;
+}
+
+.about {
+  background-color: #ffffff;
+  padding: 50px 0;
+}
+
+.about .container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.about .row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.about .col-lg-6 {
+  width: 50%;
+  float: left;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.about .about-content {
+  padding-top: 50px;
+}
+
+.about h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+
+.about a.btn {
+  font-size: 16px;
+  padding: 10px 20px;
+  border: 1px solid #2f4673;
+  color: #2f4673;
+  margin-top: 20px;
+  background-color: white;
+}
+
+.about a.btn:hover {
+  background-color: #2f4673;
+  color: white;
+}
+
+.about img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.about .about-content {
+  position: relative;
+  z-index: 1;
+}
+
+
+.services-card {
+  background-color: #ffffff;
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.icon {
+  font-size: 40px;
+  color: #2f4673;
+  margin-bottom: 20px;
+}
+
+.bx {
+  font-size: 20px;
+  color: #2f4673;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.btn-primary {
+  font-size: 16px;
+  padding: 10px 20px;
+  border: 1px solid #2f4673;
+  color: #2f4673;
+  margin-top: 20px;
+}
+
+.btn-primary:hover {
+  background-color: #2f4673;
+  color: white;
+}
+
+.services-card {
+  background-color: #ffffff;
+  padding: 50px 0;
+}
+
+.services-card .container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.services-card .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.services-card .col-lg-4 col-md-6 {
+  flex: 0 0 25%;
+  padding: 15px;
+}
+
+.services-card .card {
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.services-card .icon {
+  font-size: 40px;
+  color: #2f4673;
+  margin-bottom: 20px;
+}
+
+.services-card .bx {
+  font-size: 20px;
+  color: #2f4673;
+}
+
+.services-card h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.services-card p {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.services-card a.btn {
+  font-size: 16px;
+  padding: 10px 20px;
+  border: 1px solid #2f4673;
+  color: #2f4673;
+  margin-top: 20px;
+  background-color: white;
+}
+
+.services-card a.btn:hover {
+  background-color: #2f4673;
+  color: white;
+}
